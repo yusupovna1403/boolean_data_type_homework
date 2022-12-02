@@ -1,6 +1,6 @@
 def main(a):
     """
-    check that the number "a" is a perfect square.
+    Check that the number "a" is a perfect square.
     Args:
         a: int
     Returns:
