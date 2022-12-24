@@ -6,8 +6,8 @@ def main(a):
     Returns:
         bool
     """
-    answer = a > 0
+    answer = a > 0 and a - int(a) == 0
     return answer
-print(main(3))
+print(main(3.1))
 print(main(-1))
 print(main(7))
