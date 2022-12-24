@@ -6,5 +6,7 @@ def main(a):
     Returns:
         bool
     """
-    # Write your code here
-    return 
+    result = a % 2 == 1
+    return result
+print(main(8))
+print(main(5))
