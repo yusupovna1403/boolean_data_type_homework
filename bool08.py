@@ -8,6 +8,6 @@ def main(a):
     """
     answer = a >= 0
     return answer
-print(main(-3))
-print(main(8))
-print(main(0)) 
+print(main(3))
+print(main(0))
+print(main(-1)) 
