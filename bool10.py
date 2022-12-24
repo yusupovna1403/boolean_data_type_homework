@@ -1,3 +1,4 @@
+from math import sqrt
 def main(a):
     """
     Check that the number "a" is a perfect square.
@@ -6,5 +7,7 @@ def main(a):
     Returns:
         bool
     """
-    # Write your code here
-    return 
+    result = sqrt(a) - int(sqrt(a)) == 0
+    return result
+print(main(9))
+print(main(15))
