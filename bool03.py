@@ -6,7 +6,7 @@ def main(b):
     Returns:
         bool
     """
-    answer = b >= 0
+    answer = b > 0
     return answer
 print(main(-3))
 print(main(8))
